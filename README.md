@@ -1,9 +1,9 @@
 # Cloud‑Based Active Directory Setup & User Management (Azure)
 
-## 🧠 Project Overview
+##  Project Overview
 This project demonstrates the deployment of a cloud‑hosted Active Directory environment using Microsoft Azure. A domain controller (DC01) and Windows client (Client01) were configured inside a private virtual network to simulate enterprise identity management, user authentication, and domain join processes.
 
-## ⚙️ Environment Setup
+##  Environment Setup
 - **Azure Virtual Machines**
   - DC01 – Windows Server 2022
   - Client01 – Windows 10/11
@@ -11,7 +11,7 @@ This project demonstrates the deployment of a cloud‑hosted Active Directory en
 - **DNS configured to point Client01 to DC01**
 - **Remote Desktop access for configuration**
 
-## 🔧 Active Directory Configuration
+##  Active Directory Configuration
 - Installed **Active Directory Domain Services (AD DS)** on DC01  
 - Promoted DC01 to a domain controller (`corp.local`)  
 - Created Organizational Units (OUs)  
@@ -19,7 +19,7 @@ This project demonstrates the deployment of a cloud‑hosted Active Directory en
 - Joined Client01 to the domain  
 - Verified authentication and connectivity  
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Client01 Domain Membership
 ![Client01 Domain](screenshots/client01-domain.png)
@@ -42,7 +42,7 @@ This project demonstrates the deployment of a cloud‑hosted Active Directory en
 ### Ping Test & Domain User Verification
 ![Ping Test](screenshots/ping-test.png)
 
-## 🔐 Skills Demonstrated
+##  Skills Demonstrated
 Identity & Access Management (IAM)  
 Windows Server Administration  
 Azure Virtual Machines  
@@ -51,7 +51,7 @@ Kerberos Authentication
 Event Viewer Log Analysis  
 Cloud Infrastructure Setup  
 
-## 🧰 Tools Used
+##  Tools Used
 Microsoft Azure  
 Windows Server 2022  
 Active Directory Domain Services  
@@ -59,10 +59,10 @@ PowerShell
 Event Viewer  
 DNS Manager  
 
-## 🏁 Outcome
+##  Outcome
 Successfully deployed and validated a functional Active Directory domain in Azure. Demonstrated secure user authentication, domain join processes, and core identity management concepts aligned with Security+ and entry‑level SOC analyst skills.
 
-## 🚀 Next Steps (Planned Enhancements)
+##  Next Steps (Planned Enhancements)
 - Group Policy Objects (GPOs)  
 - File server + NTFS permissions  
 - SIEM integration (Splunk / Wazuh)  
